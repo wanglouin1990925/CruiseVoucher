@@ -8,11 +8,11 @@ Dotenv.load
 Stripe.api_key = ENV['STRIPE_TEST_SECRET_KEY']
 
 use Rack::Session::EncryptedCookie,
-  :secret => 'replace_me_with_a_real_secret_key' # Actually use something secret here!
+  :secret => 'sk_test_cH9hEb3vSU052stSyak0YkXA' # Actually use something secret here!
 
 get '/' do
   status 200
-  return "Great, your backend is set up. Now you can configure the Stripe example iOS apps to point here."
+  return "Great, your backend is set up. Now you can configure the CruiseVoucher App to point here."
 end
 
 post '/charge' do
