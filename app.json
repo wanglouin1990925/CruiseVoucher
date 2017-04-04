@@ -1,7 +1,7 @@
 {
-  "name": "Example Stripe iOS Backend",
-  "description": "For testing the Stripe example iOS apps at github.com/stripe/stripe-ios",
-  "repository": "https://github.com/stripe/example-ios-backend",
+  "name": "CruiseVoucher",
+  "description": "",
+  "repository": "https://github.com/wanglouin1990925/CruiseVoucher",
   "keywords": ["ios", "stripe"],
   "env": {
     "STRIPE_TEST_SECRET_KEY": {
