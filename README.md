@@ -1,7 +1,7 @@
-Example iOS Backend
+Cruise Voucher
 ====
 
-This is a really simple [Sinatra](http://www.sinatrarb.com/) webapp that you can use to test Stripe's [example iOS apps](https://github.com/stripe/stripe-ios).
+This is a really simple [Sinatra](http://www.sinatrarb.com/) webapp that you can use to test Stripe's [Cruise Voucher](https://github.com/stripe/stripe-ios).
 
 This is intended for example purposes only: you'll likely need something more serious for your production apps.
 
