@@ -27,7 +27,7 @@ post '/charge' do
       :currency => "usd",
       :customer => @customer.id,
       :source => source,
-      :description => "Example Charge"
+      :description => "Voucher Charge"
     )
   rescue Stripe::StripeError => e
     status 402
@@ -106,7 +106,7 @@ post '/create_charge' do
       :amount => params[:amount], # this number should be in cents
       :currency => "usd",
       :source => params[:source],
-      :description => "Example Charge"
+      :description => "Voucher Charge"
     )
   rescue Stripe::StripeError => e
     status 402
